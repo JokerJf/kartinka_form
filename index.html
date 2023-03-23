@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal disp_none">
+        <form class="modal_forma" action="#">
+            <label>
+                <p>Имя</p>
+                <input type="text">
+            </label>
+            <label>
+                <p>Возраст</p>
+                <input type="text">
+            </label>
+            <label>
+                <button class="izmeni" type="submit">Изменить</button>
+                <button class="vihod" type="submit">Выйти</button>
+            </label>
+        </form>
+    </div>
+
+    <form class="forma" action="#">
+        <label>
+            <p>Имя</p>
+            <input type="text">
+        </label>
+        <label>
+            <p>Возраст</p>
+            <input type="text">
+        </label>
+        <label>
+            <button type="submit">Отправить</button>
+        </label>
+    </form>
+
+    <div class="list">
+        <ol class="logotip">
+            <li>No</li>
+            <li>Имя студента</li>
+            <li>Год рождения</li>
+            <li>Действия</li>
+         </ol>
+    </div>
+
+    <!-- 
+    npm run server
+
+    "scripts": {
+    "server": "json-server -w server/server.json -p 3002"
+    } 
+    
+    -->
+
+
+    <script src="js/mine.js"></script>
+</body>
+</html>
